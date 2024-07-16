@@ -1,0 +1,123 @@
+/* FORMULARIO MOBILE*/
+.formulario-mobile {
+    background-color: #FFFDFD;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 110vh;
+    padding: 20px; 
+}
+
+.titulo-form-mobile {
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Merriweather', sans-serif;
+    font-weight: 400;
+    color: #0B1D51;
+    margin: 10px 0;
+}
+
+.subtitulo-form-mobile {
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Merriweather', sans-serif;
+    font-weight: 400;
+    color: #0B1D51;
+    margin: 10px 0;
+}
+
+.formulario-mobile form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 400px; 
+    margin-top: 20px; 
+}
+
+.formulario-mobile label {
+    color: #0B1D51;
+    font-size: 1rem;
+    margin-bottom: 5px; 
+    font-family: 'Merriweather', sans-serif;
+    font-weight: 400;
+}
+
+.formulario-mobile input,
+.formulario-mobile textarea,
+.formulario-mobile select {
+    color: #0B1D51;
+    font-size: 1rem;
+    font-family: 'Merriweather', sans-serif;
+    font-weight: 400;
+    text-align: left;
+    background-color: #FFFDFD;
+    border: none;
+    border-bottom: 1px solid #0B1D51;
+    width: 100%;
+    padding: 8px; 
+    margin-bottom: 8px; 
+}
+
+.formulario-mobile select {
+    font-size: 15px!important;
+    font-family: 'Merriweather', sans-serif;
+    font-weight: 400;
+}
+
+.formulario-mobile textarea {
+    font-size: 0.9rem;
+    font-family: 'Merriweather', sans-serif;
+    font-weight: 400; 
+}
+
+.formulario-mobile input[type="submit"] {
+    background-color: #0B1D51;
+    color: #C6EBBE;
+    border: none;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 1.5rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px; /* Ajusta según tu diseño */
+}
+
+.formulario-mobile input[type="submit"]:hover {
+    background-color: #C6EBBE;
+    color: #0B1D51;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+}
+
+.formulario-mobile a {
+    text-decoration: none;
+    font-size: 1.25rem;
+    color: #ffffff;
+}
+
+.wraper-detalle-volver {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    height: 6vh;
+    margin-top: 10px;
+}
+
+.wraper-detalle-volver h4 {
+    margin: 0;
+    color: #0B1D51;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+}
+
+.volver {
+    height: 30px;
+    width: 30px;
+}

@@ -1,0 +1,80 @@
+.card1{
+    grid-area: card1;
+    background-color: #0B1D51;
+    border-radius: 15px;
+    gap: 10px;
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.card2{
+    grid-area: card2;
+    background-color: #0B1D51;
+    border-radius: 15px;
+    gap: 10px;
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.card2 a,.card1 a{
+    text-decoration: none;
+    color: #0B1D51;
+    font-size: 1.8rem;
+}
+
+.card-image{
+    max-width: 85%;
+    max-height: 60vh;
+    margin-top: 20px;
+}
+
+.titulo-card{
+    text-align: left;
+    font-size: 3rem;
+    color: #0B1D51;
+    margin: 0 10px;
+}
+
+.subtitulo-card{
+    text-align: left;
+    font-size: 1.5rem;
+    color: #0B1D51;
+    margin: 0 10px;
+    margin-bottom: 0;
+}
+
+.texto-card{
+    text-align: left;
+    font-size: 1.5rem;
+    width:40ch;
+    height:40%;
+    color: #0B1D51;
+    margin: 0 10px;
+    margin-bottom: 20px;
+}
+
+.wraper-card{
+    background-color: #C6EBBE;
+    width: 85%;
+    height: 50%;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: flex-start;
+}
+
+

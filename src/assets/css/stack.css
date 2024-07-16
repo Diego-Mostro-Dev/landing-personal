@@ -1,0 +1,32 @@
+/* STACK */
+.div2{
+    grid-area: div2;
+    background-color: #0B1D51;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    gap: 10px;
+}
+
+/* IMAGENES STACK */
+.div2 img{
+    width: 55%;
+    height: auto;
+    border-radius: 15px;
+}
+
+/* CORRECCION DE LAS IMAGENES */
+.div2 img:nth-child(2){
+    width: 65%;
+    height: auto;
+}
+
+.div2 img:nth-child(3){
+    width: 90%;
+    height: auto;
+}

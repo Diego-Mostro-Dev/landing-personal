@@ -1,0 +1,97 @@
+/*SECCION 1 CONTIENE LA NAV Y EL SOBRE MI*/
+.seccion1{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 1fr;
+    gap: 30px;
+    margin-top: 10PX; /*PARA DARLE MARGIN EN EL BODY ARRIBA A LA SECCION 1*/
+    width: 90vw;
+    height: 100%;
+    justify-content: center;
+    align-content: center;
+    grid-template-areas: 
+    "nav"
+    "sobre-mi"
+}
+
+
+/*SECCION 2 CONTIENE GATITE STACK MIS PROYECTOS CORREO*/
+.seccion2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px 20px;
+    margin-top: 35PX; /*PARA DARLE MARGIN EN EL BODY ARRIBA A LA SECCION 2*/
+    width: 90vw;
+    height: 100vh;
+    justify-content: center;
+    align-content: center;
+    grid-template-areas: 
+    "div1 div2 div2"
+    "div3 div3 div4";
+}
+
+/*SECCION 3 CONTIENE PROYECTOS */
+
+.seccion3{
+    display: grid;
+    display: none;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr;
+    gap: 20px 20px;
+    margin-top: 20px; /*PARA DARLE MARGIN EN EL BODY ARRIBA A LA SECCION 3*/
+    width: 90%;
+    height: 100vh;
+    justify-items: center;
+    align-items: center;
+    grid-template-areas: 
+    "card1 card2";
+}
+
+/*SECCION 4 CONTIENE FORMULARIO WHATSAPP Y ESCRIBINOS */
+
+.seccion4{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    margin-top: 20px; /*PARA DARLE MARGIN EN EL BODY ARRIBA A LA SECCION 4*/
+    width: 90vw;
+    height: 100vh;
+    justify-items: center;
+    align-content: center;
+    grid-template-areas: 
+    "formulario  whatsapp"
+    "formulario  escribinos";
+}
+
+.mobile{
+    display: none;
+}
+
+
+@media screen and (max-width: 425px) {
+    .seccion1{
+        display: none;
+    }
+    .seccion2{
+        display: none;
+    }
+    .seccion3{
+        display: none;
+    }
+    .seccion4{
+        display: none;
+    }
+    .mobile{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 50px 20px 2fr repeat(2, 1fr) 2fr;
+        gap: 10px;
+        height: 132vh;
+        width: 90vw;
+        justify-items: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,162 @@
+.proyectos-mobile{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px repeat(2, 1fr);
+    gap: 10px;
+    max-width: 100%;
+    height: 240vh;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    grid-template-areas: 
+    "cerrar"
+    "card1"
+    "card2";
+}
+
+.cerrar{
+    grid-area: cerrar;
+    width: 40px;
+    height: 40px;
+}
+
+.card1-mobile{
+    grid-area: card1;
+    background-color: #0B1D51;
+    border-radius: 15px;
+    gap: 10px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center; 
+    justify-items: center;
+    align-items: center;
+}
+
+.card2-mobile{
+    grid-area: card2;
+    background-color: #0B1D51;
+    border-radius: 15px;
+    gap: 10px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.card2-mobile a,.card1-mobile a{
+    text-decoration: none;
+    color: #0B1D51;
+    font-size: 1rem;
+    margin: 0 20px;
+}
+
+.card-image-mobile{
+    max-width: 85%;
+    max-height: 60vh;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+.titulo-card-mobile{
+    text-align: left;
+    font-size: 1.5rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.subtitulo-card-mobile{
+    text-align: left;
+    font-size: 1.25rem;
+    color: #ffffff;
+    margin: 0 10px;
+    margin-bottom: 0;
+}
+
+.texto-card-mobile{
+    text-align: left;
+    font-size: 1rem;
+    width:90%;
+    height:50%;
+    color: #ffffff;
+    margin: 0 10px;
+    margin-bottom: 30px;
+}
+
+.wraper-card-mobile{
+    background-color: #0B1D51;
+    width: 85%;
+    height: 60%;
+    margin: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: flex-start;
+}
+.wraper-card-mobile a{
+    margin: 0 20px 0 10px ;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+@media (min-width: 426px) {
+    .proyectos-mobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+        align-items: center;
+        height: 100%;
+        
+    }
+    .card1-mobile{
+        width: 110vh;
+    }
+    .card2-mobile{
+        width: 110vh;
+    }
+    .card-image-mobile{
+        max-width: 100%;
+        width: 85%;
+        max-height: 80%;
+    }
+    .texto-card-mobile{
+        font-size: 1.25rem;
+        width:90%;
+        height: 100%;
+        margin: 10px 20px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 300;
+    }
+
+    .card2-mobile a,.card1-mobile a{
+        margin: 0 20px;
+    }
+
+    .subtitulo-card-mobile{
+        margin: 0 20px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 600;
+    }
+    .wraper-card-mobile a{
+        margin: 0 20px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: row;
+        gap: 10px;
+    }
+}

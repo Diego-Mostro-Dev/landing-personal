@@ -1,0 +1,9 @@
+.escribinos{
+    grid-area: escribinos;
+    background-color: #7274A0;
+    border-radius: 15px;
+    background-image: url(../statics/gifs/giphy.gif);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}       

@@ -1,0 +1,19 @@
+.escribinos{
+    grid-area: escribinos;
+    background-color: #7274A0;
+    border-radius: 15px;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+
+.escribinos video {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 15px; 
+}
