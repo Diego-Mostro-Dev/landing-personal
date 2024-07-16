@@ -36,7 +36,7 @@
     border-radius: 15px;
     position: relative;
     margin: 0;
-    object-fit: calc(100% 90%);
+    object-fit: contain;
 }
 
 .subtitulo-texto-sobremi {
