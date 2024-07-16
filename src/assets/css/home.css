@@ -95,3 +95,29 @@
         margin-bottom: 20px;
     }
 }
+
+@media screen and (min-width: 2400px) {
+    .seccion1{
+        display: none;
+    }
+    .seccion2{
+        display: none;
+    }
+    .seccion3{
+        display: none;
+    }
+    .seccion4{
+        display: none;
+    }
+    .mobile{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 50px 20px 2fr repeat(2, 1fr) 2fr;
+        gap: 10px;
+        height: 132vh;
+        width: 90vw;
+        justify-items: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+}
