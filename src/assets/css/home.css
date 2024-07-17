@@ -34,7 +34,6 @@
 /*SECCION 3 CONTIENE PROYECTOS */
 
 .seccion3{
-    display: grid;
     display: none;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 2fr;
