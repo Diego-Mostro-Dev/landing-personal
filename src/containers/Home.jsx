@@ -12,7 +12,7 @@ import Whatsapp from '../components/Whatsapp'
 import MandameMensajes from '../components/MandameMensajes'
 import HomeMobile from '../components/HomeMobile'
 
-export default function home() {
+export default function Home() {
     
 
     return (
