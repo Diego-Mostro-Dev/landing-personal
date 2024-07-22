@@ -1,3 +1,11 @@
+html {
+    touch-action: manipulation;       /* Evitar manipulación táctil */
+    -ms-touch-action: manipulation;   /* Compatibilidad con IE */
+    zoom: reset;                      /* Resetear zoom */
+}
+
+
+
 /*SECCION 1 CONTIENE LA NAV Y EL SOBRE MI*/
 .seccion1{
     display: grid;
