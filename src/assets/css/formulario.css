@@ -120,3 +120,13 @@
     background-color: #C6EBBE;
     color: #0B1D51;
 }
+
+.exito{
+    background-color: #0B1D51;
+    padding: 10px;
+    color: #C6EBBE;
+    font-size: 1.5rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    border-radius: 15px;
+}

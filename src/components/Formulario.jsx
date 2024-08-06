@@ -48,7 +48,7 @@ export default function Formulario() {
             <div className="formulario">
                 <h1 className="titulo-form" id='formulario'>¿Tenés un proyecto en mente?</h1>
                 {enviadoConExito ? (
-                    <div>¡Mensaje enviado con éxito!</div>
+                    <div className='exito'>¡Gracias por escribirme!</div>
                 ) : (
                     <h2 className="subtitulo-form">Escribime</h2>
                 )}

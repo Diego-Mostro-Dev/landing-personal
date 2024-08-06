@@ -55,7 +55,7 @@ export default function Formulario() {
                 </Link>
                 <h1 className="titulo-form-mobile">¿Tenés un proyecto en mente?</h1>
                 {enviadoConExito ? (
-                    <div>¡Mensaje enviado con éxito!</div>
+                    <div className='exito-mobile'>¡Gracias por escribirme!</div>
                 ) : (
                     <h2 className="subtitulo-form-mobile">Escribime</h2>
                 )}
