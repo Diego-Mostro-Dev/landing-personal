@@ -1,6 +1,6 @@
 import React from 'react'
 import '../assets/css/correo.css'
-import correo from '../assets/statics/pngs/exito.png';
+import correo from '../assets/statics/pngs/exito.webp';
 
 export default function Correo() {
     return (

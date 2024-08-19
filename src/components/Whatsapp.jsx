@@ -1,6 +1,6 @@
 import React from 'react';
 import '../assets/css/whatsapp.css';
-import whatsappIcon from '../assets/statics/pngs/whatsapp.png';
+import whatsappIcon from '../assets/statics/pngs/whatsapp.webp';
 
 export default function Whatsapp() {
     return (
