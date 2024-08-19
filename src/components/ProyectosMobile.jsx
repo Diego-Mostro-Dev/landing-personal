@@ -10,32 +10,34 @@ import { Link } from 'react-router-dom'
 
 export default function ProyectosMobile() {
     return (
-        <>  
+        <>
             <section className="proyectos-mobile">
-                <Link to="/"><img src={cerrar} alt="Volver" className="cerrar"/></Link>
+                <Link to="/"><img src={cerrar} alt="Volver" className="cerrar" /></Link>
                 <div className="card2-mobile">
-                    <img src={kreta} alt="Imagen Pagina Kreta" className="card-image-mobile"/>
+                    <img src={kreta} alt="Imagen Pagina Kreta" className="card-image-mobile" />
                     <div className="wraper-card-mobile">
                         <a href="https://kreta.ar/" target='_blank' rel='noreferrer'>
-                            <h2 className="titulo-card-mobile">Kreta</h2>
-                            <img src={iconoLink} className='icono-link' alt="pagina Kreta"/>
+                            <h2 className="titulo-card-mobile">KRETA</h2>
+                            <img src={iconoLink} className='icono-link' alt="pagina Kreta" />
                         </a>
+                        <p className='tecnologias'>Tecnologías utilizadas: React, JavaScript, HTML, CSS y mapas de Leaflet API</p>
                         <h3 className="subtitulo-card-mobile">Landing page para cooperativa</h3>
                         <p className="texto-card-mobile">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus venenatis neque mauris, vitae blandit sem ullamcorper eu. Fusce risus nunc, sodales sed ornare ut, viverra vitae orci. Vestibulum convallis orci ut nunc finibus, eget venenatis nisi ullamcorper. 
+                            Trabajamos en una landing para Kreta Digital Media, una cooperativa audiovisual de la ciudad de Rosario. Kreta trabaja produciendo imágenes fotográficas y audiovisuales para publicidad, comunicación institucional y eventos. El objetivo de la landing es dar a conocer y promocionar los servicios de la cooperativa.
                         </p>
                     </div>
                 </div>
                 <div className="card1-mobile">
-                <img src={gisa} alt="Imagen Pagina Gisa" className="card-image-mobile"/>
+                    <img src={gisa} alt="Imagen Pagina Gisa" className="card-image-mobile" />
                     <div className="wraper-card-mobile">
                         <a href="https://gisaweb.netlify.app/" target='_blank' rel='noreferrer'>
-                            <h2 className="titulo-card-mobile">GisaWeb</h2>
-                            <img src={iconoLink} className='icono-link' alt="pagina Kreta"/>
+                            <h2 className="titulo-card-mobile">GISA S. A.</h2>
+                            <img src={iconoLink} className='icono-link' alt="pagina Kreta" />
                         </a>
+                        <p className='tecnologias'>Tecnologías utilizadas: React, JavaScript, HTML, CSS</p>
                         <h3 className="subtitulo-card-mobile">Landing page para empresa constructora</h3>
                         <p className="texto-card-mobile">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus venenatis neque mauris, vitae blandit sem ullamcorper eu. Fusce risus nunc, sodales sed ornare ut, viverra vitae orci. Vestibulum convallis orci ut nunc finibus, eget venenatis nisi ullamcorper. 
+                            Gisa SA es una empresa constructora ubicada en la provincia de Santa Fe, que se dedica a grandes obras de ingeniería como instalaciones de gas, cloacales y pluviales. El sitio fue desarrollado con el objetivo de dar presencia institucional a la empresa en el ámbito digital, además de mostrar las obras realizadas y fomentar el desarrollo de nuevos negocios a través de la plataforma.
                         </p>
                     </div>
                 </div>

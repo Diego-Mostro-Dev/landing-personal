@@ -88,6 +88,7 @@ export default function Formulario() {
                         <option value="Mantenimiento web">Mantenimiento web</option>
                         <option value="Creacion de una API">Creacion de una API</option>
                         <option value="Gestor de contenido para web">Gestor de contenido para web</option>
+                        <option value="Otro">Otro</option>
                     </select>
                     <label htmlFor="mensaje">Mensaje</label>
                     <textarea

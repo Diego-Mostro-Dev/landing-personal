@@ -15,27 +15,32 @@ export default function Sobre_mi() {
                 window.scrollTo({ top: yOffset, behavior: "smooth" });
             }
         }, 100);
-    }; 
- 
+    };
+
 
     return (
-    <>
-        
-        <div className="sobre-mi"id='sobre-mi'>
-            <h1 className="titulo-sobremi">Programador web</h1>
-            <div className="wrap-sobremi">
-                <img src={fotomia} alt="Mi foto"/>
-                <div className="subtitulo-texto-sobremi">
-                    <h2 className="subtitulo-sobremi">Desarrollá tu web personalizada</h2>
-                    <p className="texto-sobremi">
-                        Ofrezco servicios integrales de desarrollo web que incluyen diseño UX/UI, creación de sitios web responsivos, mantenimiento continuo, y optimización SEO.
-    Trabajo con tecnologías modernas como React, JavaScript, HTML, CSS, SQL y Python para asegurar que tu presencia online sea atractiva, funcional y eficiente. 
-    Disfruta de un enfoque personalizado, atención al cliente excepcional y el respaldo de un desarrollador con experiencia en múltiples tecnologías, asegurando que tu proyecto sea exitoso y eficiente.
-                    </p>
-                    <button onClick={redirectToFormulario} className="contactame">Contactame para tu web</button>
+        <>
+
+            <div className="sobre-mi" id='sobre-mi'>
+                <h1 className="titulo-sobremi">Programador web</h1>
+                <div className="wrap-sobremi">
+                    <img src={fotomia} alt="Mi foto" />
+                    <div className="subtitulo-texto-sobremi">
+                        <h2 className="subtitulo-sobremi">Desarrollá tu web personalizada</h2>
+                        <p className="texto-sobremi">
+                            Ofrezco servicios integrales de desarrollo web que incluyen, creación de sitios web responsivos, mantenimiento contínuo, y optimización SEO. Utilizo tecnologías modernas como React, JavaScript, HTML, CSS, SQL y Python para asegurar que tu presencia online sea atractiva, funcional y eficiente.<br />
+                            <br />
+
+                            Trabajo con un enfoque personalizado, desarrollando propuestas a medida de las necesidades de mis clientes.<br />
+                            <br />
+
+                            ¿Tenés un proyecto en mente?
+
+                        </p>
+                        <button onClick={redirectToFormulario} className="contactame">Charlemos</button>
+                    </div>
                 </div>
             </div>
-        </div>
-    </>
+        </>
     )
 } 
