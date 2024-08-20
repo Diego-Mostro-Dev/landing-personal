@@ -28,7 +28,7 @@ export default function Sobre_mi() {
                     <div className="subtitulo-texto-sobremi">
                         <h2 className="subtitulo-sobremi">Desarrollá tu web personalizada</h2>
                         <p className="texto-sobremi">
-                            Ofrezco servicios integrales de desarrollo web que incluyen, creación de sitios web responsivos, mantenimiento contínuo, y optimización SEO. Utilizo tecnologías modernas como React, JavaScript, HTML, CSS, SQL y Python para asegurar que tu presencia online sea atractiva, funcional y eficiente.<br />
+                            Ofrezco servicios integrales de desarrollo web que incluyen creación de sitios web responsivos, mantenimiento contínuo, y optimización SEO. Utilizo tecnologías modernas como React, JavaScript, HTML, CSS, SQL y Python para asegurar que tu presencia online sea atractiva, funcional y eficiente.<br />
                             <br />
 
                             Trabajo con un enfoque personalizado, desarrollando propuestas a medida de las necesidades de mis clientes.<br />
