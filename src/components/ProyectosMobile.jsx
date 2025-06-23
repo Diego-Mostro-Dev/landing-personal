@@ -2,6 +2,7 @@ import React from 'react'
 import '../assets/css/proyectos-mobile.css'
 import kreta from '../assets/statics/pngs/kreta1.webp'
 import gisa from '../assets/statics/pngs/gisa1.webp'
+import magnolia from '../assets/statics/pngs/magnolia.png'
 import cerrar from '../assets/statics/svgs iconos/square-rounded-x.svg'
 import iconoLink from '../assets/statics/svgs iconos/link.svg'
 import { Link } from 'react-router-dom'
@@ -13,6 +14,22 @@ export default function ProyectosMobile() {
         <>
             <section className="proyectos-mobile">
                 <Link to="/"><img src={cerrar} alt="Volver" className="cerrar" /></Link>
+
+                <div className="card3-mobile">
+                    <img src={magnolia} alt="Imagen Pagina Magnolia" className="card-image-mobile" />
+                    <div className="wraper-card-mobile">
+                        <a href="https://magnoliacasting.com.ar/" target='_blank' rel='noreferrer'>
+                            <h2 className="titulo-card-mobile">Magnolia Casting</h2>
+                            <img src={iconoLink} className='icono-link' alt="pagina Kreta" />
+                        </a>
+                        <p className='tecnologias'>Tecnologías utilizadas: React, JavaScript, HTML, CSS</p>
+                        <h3 className="subtitulo-card-mobile">Landing page para empresa constructora</h3>
+                        <p className="texto-card-mobile">
+                            Magnolia Casting es una empresa especializada en la realización de castings para producciones audiovisuales, publicitarias y teatrales. El sitio fue desarrollado con el objetivo de brindar presencia institucional a la empresa en el ámbito digital, además de mostrar los proyectos en los que ha participado y facilitar el contacto con talentos y productoras interesadas en formar parte de futuras convocatorias.
+                        </p>
+                    </div>
+                </div>
+
                 <div className="card2-mobile">
                     <img src={kreta} alt="Imagen Pagina Kreta" className="card-image-mobile" />
                     <div className="wraper-card-mobile">
@@ -41,6 +58,7 @@ export default function ProyectosMobile() {
                         </p>
                     </div>
                 </div>
+
             </section>
         </>
     )

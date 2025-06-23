@@ -1,18 +1,18 @@
 .proyectos-mobile {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 50px repeat(2, 1fr);
+    grid-template-rows: 50px repeat(3, 1fr);
     gap: 10px;
-    max-width: 100%;
-    height: 240vh;
+    height: 400vh;
     justify-content: center;
     align-content: center;
     justify-items: center;
     align-items: center;
     grid-template-areas:
         "cerrar"
-        "card1"
-        "card2";
+        "card3"
+        "card2"
+        "card1";
 }
 
 .cerrar {
@@ -23,6 +23,20 @@
 
 .card1-mobile {
     grid-area: card1;
+    background-color: #0B1D51;
+    border-radius: 15px;
+    gap: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.card3-mobile {
+    grid-area: card3;
     background-color: #0B1D51;
     border-radius: 15px;
     gap: 10px;
@@ -51,7 +65,8 @@
 }
 
 .card2-mobile a,
-.card1-mobile a {
+.card1-mobile a,
+.card3-mobile a {
     text-decoration: none;
     color: #0B1D51;
     font-size: 1rem;
@@ -125,26 +140,29 @@
 @media (min-width: 426px) {
     .proyectos-mobile {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
         align-content: center;
         justify-items: center;
-        align-items: center;
-        height: 100%;
-
+        align-items: flex-start;
+        height: 90%;
     }
 
     .card1-mobile {
-        width: 110vh;
+        width: 30vw;
     }
 
     .card2-mobile {
-        width: 110vh;
+        width: 30vw;
+    }
+
+    .card3-mobile {
+        width: 30vw;
     }
 
     .card-image-mobile {
         max-width: 100%;
-        width: 85%;
+        width: 25vw;
         max-height: 80%;
     }
 
@@ -158,7 +176,8 @@
     }
 
     .card2-mobile a,
-    .card1-mobile a {
+    .card1-mobile a,
+    .card3-mobile a {
         margin: 0 20px;
     }
 

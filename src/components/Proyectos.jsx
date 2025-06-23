@@ -28,6 +28,17 @@ export default function Proyectos() {
                     </p>
                 </div>
             </div>
+            <div className="card3">
+                <img src={gisa} alt="Imagen Pagina Magnolia" className="card-image" />
+                <div className="wraper-card">
+                    <a href="https://magnoliacasting.com.ar/">https://magnoliacasting.com.ar/</a>
+                    <h2 className="titulo-card">Magnolia Casting</h2>
+                    <h3 className="subtitulo-card">Landing page para Magnolia Casting</h3>
+                    <p className="texto-card">
+                        Magnolia Casting es una empresa especializada en la realización de castings para producciones audiovisuales, publicitarias y teatrales. El sitio fue desarrollado con el objetivo de brindar presencia institucional a la empresa en el ámbito digital, además de mostrar los proyectos en los que ha participado y facilitar el contacto con talentos y productoras interesadas en formar parte de futuras convocatorias.
+                    </p>
+                </div>
+            </div>
         </>
     )
 }
