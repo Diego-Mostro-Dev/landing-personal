@@ -1,31 +1,30 @@
 /* CORREO*/
-.div4{
+.div4 {
     grid-area: div4;
     background-color: #0B1D51;
     border-radius: 15px;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    justify-content: center;
+    display: flex;
+    justify-content: space-around;
     align-content: center;
     justify-items: center;
     align-items: center;
 }
 
-.div4 a{
+.div4 a {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.div4 a img{
-    width: 40%;
+
+.div4 a img {
+    width: 50%;
     height: auto;
     border-radius: 15px;
     margin: 0;
 }
 
-.div4 a img:hover{
-    width: 50%;
+.div4 a img:hover {
+    width: 60%;
     height: auto;
     transition: 0.3s;
 }

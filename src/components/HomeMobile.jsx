@@ -10,6 +10,7 @@ import postgresql from '../assets/statics/svgs logos/postgresql.svg'
 import html from '../assets/statics/svgs logos/html5.svg'
 import sql from '../assets/statics/svgs logos/sql-server.svg'
 import whatsappIcon from '../assets/statics/pngs/whatsapp.webp'
+import instagram from '../assets/statics/pngs/Instagram.webp'
 import correo from '../assets/statics/pngs/exito.webp'
 import chatbot from '../assets/statics/pngs/chatbot.webp'
 import escribinos from '../assets/statics/gifs/giphy.mp4'
@@ -59,14 +60,19 @@ export default function HomeMobile() {
                 </div>
             </section>
             <section className="section7-mobile">
-                <div className="correo-mobile">
+                <div className="correo-mobile" title='Escribime'>
                     <a href="mailto:diegosalvadodev@gmail.com" target="_blank" rel='noreferrer' className="correo">
                         <img src={correo} alt="Mandame un correo" />
                     </a>
                 </div>
-                <div className="whatsapp-mobile">
+                <div className="whatsapp-mobile" title='Whatsapp'>
                     <a href="https://wa.me/3416164792/?text=Hola,%20como%20estás?" target="_blank" rel='noreferrer'>
                         <img src={whatsappIcon} alt="WhatsApp" />
+                    </a>
+                </div>
+                <div className="instagram-mobile" title='Instagram'>
+                    <a href="https://www.instagram.com/diegosalvadodev?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel='noreferrer'>
+                        <img src={instagram} alt="Logo de instagram" />
                     </a>
                 </div>
             </section>

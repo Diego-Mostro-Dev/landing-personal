@@ -1,7 +1,10 @@
-.section1-mobile { grid-area: 1 / 1 / 2 / 3; }
+.section1-mobile {
+    grid-area: 1 / 1 / 2 / 3;
+}
+
 .titulo-sobremi-mobile {
     text-align: center;
-    font-size: 1.5rem; 
+    font-size: 1.5rem;
     font-family: 'Merriweather', sans-serif;
     font-weight: 900;
     margin: 10px;
@@ -10,16 +13,16 @@
     padding: 10px;
 }
 
-.section2-mobile { 
+.section2-mobile {
     grid-area: 2 / 1 / 3 / 2;
     cursor: pointer;
-    width:100%;
+    width: 100%;
 }
 
-.sobre-mi-mobile{
+.sobre-mi-mobile {
     text-decoration: none;
     text-align: center;
-    font-size:15px ;
+    font-size: 15px;
     font-family: 'Merriweather', sans-serif;
     font-weight: 900;
     margin: 10px;
@@ -28,7 +31,7 @@
     border-radius: 15px;
 }
 
-.section3-mobile { 
+.section3-mobile {
     grid-area: 3 / 1 / 4 / 2;
     width: 100%;
     height: 100%;
@@ -36,6 +39,7 @@
     cursor: pointer;
     overflow: hidden;
 }
+
 .section3-mobile img {
     width: 100%;
     height: 100%;
@@ -46,14 +50,14 @@
 
 
 .section4-mobile {
-    grid-area: 3 / 2 / 4 / 3; 
+    grid-area: 3 / 2 / 4 / 3;
     background-color: #ffffff;
     border-radius: 15px;
     cursor: pointer;
     height: 100%;
 }
 
-.section4-mobile a{
+.section4-mobile a {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
@@ -68,10 +72,10 @@
 }
 
 .section4-mobile div {
-    grid-area: 1 / 1 / 2 / 2; 
+    grid-area: 1 / 1 / 2 / 2;
     width: 100%;
     height: 100%;
-    overflow: hidden; 
+    overflow: hidden;
     border-radius: 15px;
     display: flex;
     justify-content: center;
@@ -82,7 +86,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 15px; 
+    border-radius: 15px;
 }
 
 .section4-mobile .titulo-proyectos-mobile {
@@ -98,8 +102,8 @@
     align-items: center;
 }
 
-.section5-mobile { 
-    grid-area: 4 / 1 / 5 / 3; 
+.section5-mobile {
+    grid-area: 4 / 1 / 5 / 3;
     background-color: #0B1D51;
     border-radius: 15px;
     width: 100%;
@@ -112,8 +116,9 @@
     justify-items: center;
     align-items: center;
 }
+
 /* IMAGENES STACK */
-.section5-mobile img{
+.section5-mobile img {
     width: 9%;
     max-height: 85%;
     border-radius: 15px;
@@ -143,16 +148,16 @@
     width: 100%;
     height: 100%;
     object-fit: contain;
-    border-radius: 15px; 
+    border-radius: 15px;
 }
 
 
-.section7-mobile { 
-    grid-area: 5 / 2 / 6 / 3; 
+.section7-mobile {
+    grid-area: 5 / 2 / 6 / 3;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items:center;
+    align-items: center;
     height: 100%;
     width: 100%;
     gap: 10px;
@@ -161,45 +166,61 @@
 
 }
 
-.correo-mobile{
+.correo-mobile {
     width: 50%;
-    align-self:center;
+    align-self: center;
     margin: 5px;
 }
-.correo-mobile img{
+
+.correo-mobile img {
     width: 100%;
     height: auto;
     cursor: pointer;
 }
 
-.whatsapp-mobile{
-    width: 50%; 
+.whatsapp-mobile {
+    width: 50%;
     margin: 5px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items:center;
+    align-items: center;
 }
 
 .whatsapp-mobile a img {
-    width: 100%; 
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+.instagram-mobile {
+    width: 50%;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.instagram-mobile a img {
+    width: 100%;
     height: auto;
     cursor: pointer;
 }
 
 
-.section8-mobile { 
+.section8-mobile {
     grid-area: 6 / 1 / 7 / 2;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     height: 100%;
     width: 100%;
     background-color: #ffffff;
     border-radius: 15px;
     cursor: pointer;
-    
+
 }
 
 .section8-mobile a {
@@ -209,31 +230,33 @@
     align-items: center;
 }
 
-.section8-mobile h2{
+.section8-mobile h2 {
     text-align: center;
     font-size: 1rem;
     font-family: 'Merriweather', sans-serif;
-    font-weight: 700; 
+    font-weight: 700;
     color: #0B1D51;
     border-radius: 15px;
 }
-.section8-mobile h3{
+
+.section8-mobile h3 {
     text-align: center;
     font-size: 0.8rem;
     font-family: 'Merriweather', sans-serif;
-    font-weight: 700; 
+    font-weight: 700;
     margin: 10px;
     color: #0B1D51;
     border-radius: 15px;
     padding: 10px;
 }
-.section8-mobile img{
-    width: 30%; 
+
+.section8-mobile img {
+    width: 30%;
     height: auto;
     margin: 0 10px;
 }
 
-.section9-mobile { 
+.section9-mobile {
     grid-area: 6 / 2 / 7 / 3;
     background-color: #0B1D51;
     border-radius: 15px;
@@ -245,7 +268,7 @@
     align-items: center;
 }
 
-.section9-mobile > div {
+.section9-mobile>div {
     width: 100%;
     height: 100%;
     overflow: hidden;
@@ -258,6 +281,5 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 15px; 
+    border-radius: 15px;
 }
-
